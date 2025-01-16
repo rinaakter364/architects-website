@@ -5,4 +5,83 @@
     font-weight: 400;
     font-style: normal;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    
+  }
+/* header area css style  */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navber, .banner-area{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navber {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+   align-items: center;
+   padding: 30px 0;
+}
+.nav-links{
+    display: flex;
+}
+
+.nav-iteam{
+    list-style: none;
+    margin-left: 25px;
+}
+.nav-link{
+    text-decoration: none;
+   font-size: 18px;
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+}
+/* banner area style  */
+.banner-area{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner-area img{
+    width: 100%;
+}
+.banner-content{
+    width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+.banner-content .banner-title{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-content .banner-descript{
+    margin-top: 12px;
+    line-height: 22px;
+    font-size: 13px;
+    color: rgba(114, 114, 114, 1);
+}
+.banner-btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/* responsive style css  */
+
+
+
+
+
 
